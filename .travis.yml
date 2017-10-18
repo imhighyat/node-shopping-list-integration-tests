@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: R2HjiVCMQdq89N9KQSbmmYUH42dcPPySJmOBXr6n38Yif83yyrRYKkjd1lFAKOoUtX7LWwJER4kIr5/wTKEGt0E7BaNVjhpYR+IVSy4FPpff4LXFceqQUeG3S8gyiFbcSLhbp+opt5zpPXkpdNRCz5gI210QDbpIjGYEVlngDd0SY9Ko9J1e1MUbi6HIsuKDc/UByG/GD3PbD+L+pfWnbehUcf5g/D/gtGTTmGPRLdkWKchs2Qe0ZHFHl5uefBmyw772lskH4VwxLU59IP9O3ubR0Ft+XCsyNLBnoBFniJPHUFmeaTMxBrXZK9HkuFrB5dtl/BaelhWGV6CiBql5c8hErpVGz8AlJbzN8MxMkBl0Hy5NdJsmjnX7G0KCwsf+2uw7vUPoE8ITfuSPolNs/ClaR3g1CMkZs6i7l83acFV6E1bBW8XRsn8dUe9oiJ64zauoRUUQ0x2+xYU+FjU0oXpwlXMNhIRVysOiUOHw7Be0i0+uB8xZFtt7dDKw8jzNQD6EyGbBgLgEJdm3U+V/aFMC72N/aOUmYXE2W4ykHd/8EhG6qSIl9MvnxoCU0sJdCeUlWszK7utK0eEmtUVbLblxdSkGc57CP+PVFOIg8vuYSUsiiiwDd/4G6kbDWtkWrO71tGXG5/GbSE4Ym2kD2vH9yuzudlWaKGCgiGEtJ4s=
+  app: fathomless-falls-71080
+  on:
+    repo: imhighyat/node-shopping-list-integration-tests
