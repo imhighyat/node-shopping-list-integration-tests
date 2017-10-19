@@ -44,7 +44,7 @@ describe('Recipes List', function() {
 			res.body.should.not.be.null;
 			res.body.should.deep.equal(Object.assign(newItem, {id: res.body.id}));
 			//additional tests
-			res.body.ingredients.should.be.a('array');
+			//res.body.ingredients.should.be.a('array');
 			res.body.ingredients.length.should.be.at.least(1);
 		});
 	});
